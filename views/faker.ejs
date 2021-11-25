@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+  <head>
+    <title>HW1: Different Programming Languages</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+  </head>
+
+  <body>    
+    <%- include("partials/menu.ejs")%>
+    
+    <hr>
+
+    <header>
+      <h1>Fake information generator</h1>
+    </header>
+  
+
+  <hr>
+   
+  <div id = "fakeResume">
+    <span class="bold"> Name: </span> <%= fakeInfo.name %>  <br>
+    <span class="bold"> Username: </span> <%= fakeInfo.username %>
+    <br>
+    <span class="bold"> State: </span> <%= fakeInfo.address.state %> <br>
+    <span class="bold"> Address: </span> <%= fakeInfo.address.streetB %> <br>
+    <span class="bold"> Company Name: </span> <%= fakeInfo.company.name %> <br>
+  </div>
+  </body>
+
+</html>

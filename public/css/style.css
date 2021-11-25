@@ -1,0 +1,99 @@
+body {
+  background-color: beige;
+}
+
+#photoFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Playfair Display", serif;
+}
+
+#pageLinks {
+  text-align: center;
+  background: rgb(73, 73, 85);
+  padding: 10px;
+  overflow: auto;
+  border-radius: 25px;
+}
+
+nav a {
+  float: left;
+  color: white;
+  width: 20%;
+  text-decoration: none;
+}
+
+nav a:hover {
+  margin-left: 0;
+  margin-right: 0;
+  font-size: 1.3em;
+  transition: .7s;
+  background-color: beige;
+  border-radius: 25px;
+  color: black;
+}
+
+li {
+  margin: 15px 0;
+  font-size: 20pt;
+  font-family: "Playfair Display", serif;
+}
+
+footer {
+  font-size: 10pt;
+}
+
+.logo {
+  padding-top: 5px;
+  width: 265px;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+span {
+  text-align: center;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+  margin-top: -20px;
+}
+
+li {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.phoCaption {
+  text-align: center;
+}
+
+code {
+  font-size: 16pt;
+}
+
+#fakeResume {
+  text-align: center;
+  font-size: 18pt;
+}
+
+.bold {
+  font-weight: bold;
+}
